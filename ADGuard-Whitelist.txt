@@ -45,3 +45,5 @@ www.anrdoezrs.net
 www.qksrv.net
 t.myvisualiq.net
 *.linksynergy.com
+*.tailscale.com
+tailscale.com
