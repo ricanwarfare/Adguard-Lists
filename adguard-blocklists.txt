@@ -1,0 +1,8 @@
+googleads.g.doubleclick.net
+data.grammarly.com
+eu.skated.co
+s.pemsrv.com
+d5cec34ce9.434fc6fff7.com
+js.wpadmngr.com
+static.cloudflareinsights.com
+cdn4ads.com
