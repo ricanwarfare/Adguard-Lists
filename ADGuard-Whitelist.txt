@@ -1,5 +1,9 @@
+# Whitelist
+# Format: domain or AdGuard syntax (@@||domain^$important)
+# Categories: Affiliate Networks, Redirects/Trackers, VPN/Infrastructure, Analytics/Monitoring, Shopping, Misc
+
+## Affiliate Networks (Commission Junction)
 jdoqocy.com
-redirectingat.com
 tkqlhce.com
 dpbolvw.net
 anrdoezrs.net
@@ -8,58 +12,72 @@ emjcd.com
 commission-junction.com
 qksrv.net
 kqzyfj.com
+cj.com
+7eer.net
+ojrq.net
+www.kqzyfj.com
+www.emjcd.com
+www.tkqlhce.com
+www.dpbolvw.net
+www.anrdoezrs.net
+www.qksrv.net
+
+## Affiliate Networks (Rakuten/LinkShare)
 linksynergy.com
-cc-dt.com
-clickserve.cc-dt.com
+*.linksynergy.com
+
+## Affiliate Networks (ShareASale)
 shareasale.com
-affiliatefuture.com
+
+## Affiliate Networks (AvantLink)
 avantlink.com
-pntra.com
-gopjn.com
-pntrack.com
+
+## Affiliate Networks (Impact)
 pjtra.com
 pjatr.com
 pntra.com
 pntrac.com
-redirect.at
+gopjn.com
+pntrack.com
+
+## Affiliate Networks (Other)
+affiliatefuture.com
 onenetworkdirect.net
 go2jump.org
-doubleclick.net
-gan.doubleclick.net
-ad.doubleclick.net
 evyy.net
 bfast.com
-cj.com
-7eer.net
-ojrq.net
-click.microsoftstoreemail.com
-goto.target.com
-www.kqzyfj.com
-www.emjcd.com
-www.tkqlhce.com
-www.youtube-nocookie.com
-links.da.slickdeals.net
-goto.walmart.com
-www.dpbolvw.net
-www.anrdoezrs.net
-www.qksrv.net
+
+## Redirects/Tracking
+redirectingat.com
+redirect.at
 t.myvisualiq.net
-*.linksynergy.com
+clickserve.cc-dt.com
+cc-dt.com
+click.microsoftstoreemail.com
+@@||go.redirectingat.com^$important
+
+## Shopping/Retail
+goto.target.com
+goto.walmart.com
+
+## VPN/Infrastructure (Tailscale)
 *.tailscale.com
 tailscale.com
-
-# Tailscale (AdGuard format)
 @@||log.tailscale.io^$important
 @@||pkgs.tailscale.com^$important
 @@||login.tailscale.com^$important
 
-# Affiliate/Redirect (AdGuard format)
-@@||go.redirectingat.com^$important
-
-# Samsung
+## Samsung
 @@||lcprd1.samsungcloudsolution.net^$important
 
-# Analytics/Monitoring (AdGuard format)
+## Analytics/Monitoring
+doubleclick.net
+gan.doubleclick.net
+www.datadoghq-browser-agent.com
 @@||tags.crwdcntrl.net^|
 @@||js.monitor.azure.com^|
 @@||www.datadoghq-browser-agent.com^|
+
+## Misc/Video
+www.youtube-nocookie.com
+links.da.slickdeals.net
