@@ -48,13 +48,12 @@ evyy.net
 bfast.com
 
 ## Redirects/Tracking
-redirectingat.com
+@@||go.redirectingat.com^$important
 redirect.at
 t.myvisualiq.net
 clickserve.cc-dt.com
 cc-dt.com
 click.microsoftstoreemail.com
-@@||go.redirectingat.com^$important
 
 ## Shopping/Retail
 goto.target.com
@@ -62,7 +61,6 @@ goto.walmart.com
 
 ## VPN/Infrastructure (Tailscale)
 *.tailscale.com
-tailscale.com
 @@||log.tailscale.io^$important
 @@||pkgs.tailscale.com^$important
 @@||login.tailscale.com^$important
@@ -73,10 +71,9 @@ tailscale.com
 ## Analytics/Monitoring
 doubleclick.net
 gan.doubleclick.net
-www.datadoghq-browser-agent.com
+@@||www.datadoghq-browser-agent.com^|
 @@||tags.crwdcntrl.net^|
 @@||js.monitor.azure.com^|
-@@||www.datadoghq-browser-agent.com^|
 
 ## Misc/Video
 www.youtube-nocookie.com
