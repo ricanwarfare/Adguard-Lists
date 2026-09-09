@@ -69,8 +69,6 @@ goto.walmart.com
 @@||lcprd1.samsungcloudsolution.net^$important
 
 ## Analytics/Monitoring
-doubleclick.net
-gan.doubleclick.net
 @@||www.datadoghq-browser-agent.com^|
 @@||tags.crwdcntrl.net^|
 @@||js.monitor.azure.com^|
